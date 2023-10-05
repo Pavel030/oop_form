@@ -1,0 +1,70 @@
+body::-webkit-scrollbar {
+    width: 0; /* This will hide the horizontal scrollbar */
+    height: 0; /* This will hide the vertical scrollbar */
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    background: #E0E0E0;
+    font-size: 0.8rem;
+}
+
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: min-content;
+    gap: 15px;
+    background: white;
+    padding: 3vh 2vw 4vh 3vw;
+    margin: 2vh auto !important;
+    border-radius: 1rem;
+}
+
+.question-content {
+    font-style: italic;
+}
+
+.question-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.error {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: indianred;
+}
+
+.table-holder {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw 5vh 5vw;
+    width: 90vw;
+}
+
+.tr {
+    min-height: 6vh;
+}
+
+.attributes {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.btn-w {
+    width: 6vw;
+}
+
+.font-black {
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    background: inherit !important;
+}
+
+.input-width {
+    width: 100% !important;
+}
